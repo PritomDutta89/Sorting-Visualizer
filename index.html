@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+  <div>
+
+    <section style="margin-top: 2vw;">
+      <p class="head"><b>Comparision: <b id = "comp"></b></b></p>
+      <p class="head"><b>Swap: <b id = "swap"></b></b></p>
+    </section>
+    <section class="data-container"></section>
+    <section> 
+      <button  class="btn1" onclick="generate()" id="btn1">Generate Array</button>
+      <button  class="btn4" onclick="reset()" id="btn4">Reset</button> 
+    </section>
+    <secion class="sort">
+      <br><br>
+    <button  class="btn3" onclick="bubblesort(),dis()" id="btn3">Bubble Sort</button>
+    <br><br>
+      <button  class="btn2" onclick="selectionsort(),dis()" id="btn2">Selection Sort</button>
+    <br><br>
+    <button class="btn5" onclick = "insertionsort(),dis()" id="btn5">Insertion Sort</button> 
+  </secion>
+   
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
